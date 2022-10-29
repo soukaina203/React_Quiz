@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 550px;
+  height: fit-content;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+td {
+  height: 40px;
+  font-weight: 700;
+  padding-left: 59px;
+}
+.fn {
+  background-color: rgb(9, 108, 9);
+  color: aliceblue;
+  height: 40px;
+  width: fit-content;
+  border: transparent;
+  position: absolute;
+  bottom: 290px;
+}
+.rn {
+  background-color: rgb(9, 108, 9);
+  color: aliceblue;
+  height: 40px;
+  width: fit-content;
+  border: transparent;
+  position: absolute;
+  bottom: 190px;
+}
+p{
+    position: absolute;
+  bottom: 179px;  
+  left: 650px;
+}
